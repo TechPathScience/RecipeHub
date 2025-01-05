@@ -21,7 +21,7 @@ Welcome to **RecipeHub**! A place where culinary enthusiasts can discover, share
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/RecipeHub.git
+   git clone https://github.com/TechPathScience/RecipeHub.git
 Navigate to the project directory:
 bash
 Copy code
