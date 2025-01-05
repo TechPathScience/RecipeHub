@@ -1,0 +1,57 @@
+/* src/GithubRepos.css */
+.repo-container {
+  padding: 40px 20px;
+  text-align: center;
+  min-height: 100vh; /* Full height for the container */
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(300px, 1fr)
+  ); /* More spacious grid */
+  gap: 30px; /* Increased gap between cards */
+}
+
+.card {
+  background: rgba(19, 18, 18, 0.8); /* Semi-transparent white */
+  border: 1px solid rgba(0, 0, 0, 0.1); /* Light border */
+  border-radius: 12px; /* Rounded corners */
+  padding: 20px; /* Increased padding */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Softer shadow */
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transitions */
+  backdrop-filter: blur(10px); /* Background blur effect */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+.repo-description {
+  font-size: 15px; /* Adjusted font size */
+  color: #fff; /* Darker text for better readability */
+  margin-bottom: 10px;
+}
+
+.repo-name {
+  font-size: 20px; /* Larger font size */
+  font-weight: bold;
+  color: #fff; /* Blue color for the name */
+  margin-bottom: 15px; /* Spacing below the name */
+}
+
+.repo-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 12px 18px; /* Adjusted padding */
+  color: #0056b3;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+}
+
+.repo-link:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
