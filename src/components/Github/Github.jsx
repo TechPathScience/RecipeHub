@@ -53,6 +53,11 @@ const Github = () => {
             </div>
           ))}
         </div>
+        <footer className="footer">
+          <p>
+            🌟 Explore my GitHub repositories and connect with my projects! 🚀
+          </p>
+        </footer>
       </div>
     </>
   );
